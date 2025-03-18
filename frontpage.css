@@ -75,10 +75,50 @@ a:hover{
     width: 100%;
   }
 }
-.c4{
-  justify-content: center;
-align-items: center;
+.c4 {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  margin: 40px;
 }
+p{
+  color: lightslategray;
+}
+
+#button1 {
+  background-color: white;
+  border-color: rgb(154, 20, 154);
+  color: purple;
+}
+
+#button1:hover {
+  opacity: 0.6;
+}
+h2{
+  color: black;
+}
+h4{
+  color: purple;
+}
+h4:hover{
+  color: navy;
+}
+.c6{
+  
+    height: 500px;
+    width:100% ;
+   
+    display: flex;
+    gap: 25px;
+}
+
+
+.c5:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+  }
+
 
 .footer{
   height: 100px;
@@ -116,11 +156,14 @@ margin-right:40px ;
 span{
   color: black;
 }
-.c5{
+.c7{
 height: 250px;
 width: 100%;
 /* background-color: aquamarine; */
 gap: 10px;
+.c7{
+  text-align: center;
+}
 }
 img{
   margin-top: 15px;
