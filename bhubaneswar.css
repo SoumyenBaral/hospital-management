@@ -1,77 +1,51 @@
-.c1{
-    margin: 0;
-    padding: 0;
-    height: 90px;
+.navbar_bbsr {
+    height: 80px;
     width: 100%;
-    background-color:#034C53;
+    background-color:#9ab6e3;
     border: 2px solid black;
-    border-radius: 10px;
-}
-#d1{
+    border-radius: 25px;
+    float: left;
+    display: flex;
+    align-items: center;
     list-style-type: none;
     text-decoration: none;
-    display: flex;
+    gap: 25px;
+    padding: 15px;
     align-content: center;
-    gap: 30px;
-    float: right;
-    margin: 30px;
-    color: #fff2ff;
-}
-.c3{
-    height: 25px;
-    width: 300px;
-    background-color: aliceblue;
-    color: blue;
-    margin: 100px;
-}
-.c5{
-    margin: 90px;
-}
- .c7{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
- }
- .c8{
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
- }
- .c7 img{
-    border-radius: 20px;
- }
- .c8 img{
-    border-radius: 20px;
- }
- .c7 img:hover{
-    transform: scale(1.1);
- }
- .c8 img:hover{
-    transform: scale(1.1);
- }
-.footer{
-    height: 100px;
-    width: 100%;
-    background-color: black;
-    color: whitesmoke;
-    border-radius: 20px;
-    text-align: center;
-    gap: 100px;
-}
-.c4{
-    justify-content: center;
-    align-items: center;
-}
-i{
-    border: 2px solid orangered;
-    border-radius: 50%;
-    font: 20px;
-    opacity: 0.5;
-}
-i:hover{
-    font:20px;
-    opacity: 1;
-}
-#d5{
-    float: right;
-}
+  }
+  
+  #d11 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }
+  #d12 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }#d13 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }#d14 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }
+  #d11:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d12:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d13:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d14:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  
