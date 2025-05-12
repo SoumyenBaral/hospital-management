@@ -1,3 +1,141 @@
-h1{
-    color: blueviolet;
+/* body{
+  background-color: black;
+} */
+
+.navbar {
+    height: 80px;
+    width: 100%;
+    background-color:#393E46;
+    border: 2px solid black;
+    border-radius: 25px;
+    float: left;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    text-decoration: none;
+    gap: 25px;
+    padding: 15px;
+    align-content: center;
+  }
+  
+  #d11 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }
+  #d12 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }#d13 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }#d14 {
+    text-decoration: solid;
+    color: #DFD0B8;
+  }
+  #d11:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d12:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d13:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+  #d14:hover {
+    text-decoration: underline;
+    color: #D9EAFD;
+  }
+  
+.c1{
+  background-image: url("https://wallpaperbat.com/img/8612027-faq.png");
+  background-repeat: no-repeat;
+  color: azure;
+  height: 600px;
+  width:100%;
+  border-radius: 25px;
+  position: relative;
+  top: 100px;
+} 
+ .c2{
+  height: 100px;
+  width: 400px;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  
+}
+.button{
+  height: 50px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: #393E46;
+  color: aliceblue;
+}
+.container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  gap:27px ;
+}
+a{
+  text-decoration: none;
+  color:maroon;
+}
+.footer {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  gap: 100px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 15px;
+
+}
+
+i {
+  border: 6px solid orangered;
+  border-radius: 50%;
+  font: 20px;
+  opacity: 0.5;
+}
+
+i:hover {
+  font: 20px;
+  opacity: 1;
+}
+
+#d8 {
+  height: 300px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 350px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+#d10 {
+  display: flex;
+  gap: 100px;
+}
+
+span {
+  color: black;
+}
+
+.c7 {
+  height: 250px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  gap: 10px;
+
+  .c7 {
+    text-align: center;
+  }
 }
