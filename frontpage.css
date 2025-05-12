@@ -17,6 +17,8 @@ body {
   gap: 25px;
   padding: 15px;
 align-items: center;
+position: sticky;
+top: 0px;
 }
 
 #d11 {

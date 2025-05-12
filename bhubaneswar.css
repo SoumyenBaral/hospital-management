@@ -47,5 +47,66 @@
     text-decoration: underline;
     color: #D9EAFD;
   }
+.container{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  gap:27px ;
+}
+a{
+  text-decoration: none;
+  color:maroon;
+}
   
-  
+  .footer {
+  height: 120px;
+  width: 100%;
+  text-align: center;
+  gap: 100px;
+  background-color: black;
+  color: whitesmoke;
+  border-radius: 15px;
+
+}
+
+i {
+  border: 6px solid orangered;
+  border-radius: 50%;
+  font: 20px;
+  opacity: 0.5;
+}
+
+i:hover {
+  font: 20px;
+  opacity: 1;
+}
+
+#d8 {
+  height: 300px;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  gap: 350px;
+  margin-left: 60px;
+  margin-right: 40px;
+}
+
+#d10 {
+  display: flex;
+  gap: 100px;
+}
+
+span {
+  color: black;
+}
+
+.c7 {
+  height: 250px;
+  width: 100%;
+  /* background-color: aquamarine; */
+  gap: 10px;
+
+  .c7 {
+    text-align: center;
+  }
+}
