@@ -1,101 +1,91 @@
-/* body{
-  background-color: black;
-} */
-
 .navbar {
-    height: 80px;
-    width: 100%;
-    background-color:#393E46;
-    border: 2px solid black;
-    border-radius: 25px;
-    float: left;
-    display: flex;
-    align-items: center;
-    list-style-type: none;
-    text-decoration: none;
-    gap: 25px;
-    padding: 15px;
-    align-content: center;
-  }
-  
-  #d11 {
-    text-decoration: solid;
-    color: #DFD0B8;
-  }
-  #d12 {
-    text-decoration: solid;
-    color: #DFD0B8;
-  }#d13 {
-    text-decoration: solid;
-    color: #DFD0B8;
-  }#d14 {
-    text-decoration: solid;
-    color: #DFD0B8;
-  }
-  #d11:hover {
-    text-decoration: underline;
-    color: #D9EAFD;
-  }
-  
-  #d12:hover {
-    text-decoration: underline;
-    color: #D9EAFD;
-  }
-  
-  #d13:hover {
-    text-decoration: underline;
-    color: #D9EAFD;
-  }
-  
-  #d14:hover {
-    text-decoration: underline;
-    color: #D9EAFD;
-  }
-  
-.c1{
+  height: 80px;
+  width: 100%;
+  background-color: #183B4E;
+  border-radius: 25px;
+  float: left;
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 25px;
+  padding: 15px;
+  align-content: center;
+}
+
+#d11 {
+  text-decoration: solid;
+  color: #DFD0B8;
+}
+
+#d12 {
+  text-decoration: solid;
+  color: #DFD0B8;
+}
+
+#d13 {
+  text-decoration: solid;
+  color: #DFD0B8;
+}
+
+#d14 {
+  text-decoration: solid;
+  color: #DFD0B8;
+}
+
+#d11:hover {
+  text-decoration: underline;
+  color: #D9EAFD;
+}
+
+#d12:hover {
+  text-decoration: underline;
+  color: #D9EAFD;
+}
+
+#d13:hover {
+  text-decoration: underline;
+  color: #D9EAFD;
+}
+
+#d14:hover {
+  text-decoration: underline;
+  color: #D9EAFD;
+}
+
+.c1 {
   background-image: url("https://wallpaperbat.com/img/8612027-faq.png");
   background-repeat: no-repeat;
   color: azure;
   height: 600px;
-  width:100%;
+  width: 100%;
   border-radius: 25px;
   position: relative;
   top: 100px;
-} 
- .c2{
+}
+
+.c2 {
   height: 100px;
   width: 400px;
   position: absolute;
   top: 100px;
   left: 50px;
-  
+
 }
-.button{
-  height: 50px;
-  width: 100px;
-  border-radius: 10px;
-  background-color: #393E46;
-  color: aliceblue;
-}
-.container{
-  height: 200px;
+
+.container {
+  background-image: linear-gradient(#27548A, #F3F3E0);
+  background-repeat: no-repeat;
+  height: 350px;
   width: 100%;
   display: flex;
-  gap:27px ;
+  align-items: center;
+  gap: 27px;
 }
-a{
-  text-decoration: none;
-  color:maroon;
-}
-.footer {
-  height: 120px;
-  width: 100%;
-  text-align: center;
-  gap: 100px;
-  background-color: black;
-  color: whitesmoke;
-  border-radius: 15px;
 
+a {
+  text-decoration: none;
+  color: maroon;
 }
 
 i {
@@ -110,19 +100,25 @@ i:hover {
   opacity: 1;
 }
 
-#d8 {
-  height: 300px;
+#footer {
+  height: 400px;
   width: 100%;
-  /* border: 2px solid black; */
+  background-color: #183B4E;
+  border-radius: 25px;
   display: flex;
   gap: 350px;
-  margin-left: 60px;
-  margin-right: 40px;
+  position: relative;
+  padding: 50px;
 }
 
 #d10 {
   display: flex;
   gap: 100px;
+}
+
+iframe {
+  height: 280px;
+  width: 400px;
 }
 
 span {
@@ -132,8 +128,11 @@ span {
 .c7 {
   height: 250px;
   width: 100%;
-  /* background-color: aquamarine; */
   gap: 10px;
+  position: absolute;
+  align-items: center;
+  justify-items: center;
+  top: 330px;
 
   .c7 {
     text-align: center;
