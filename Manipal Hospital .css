@@ -2,6 +2,7 @@
      height: 80px;
      width: 100%;
      background-color: #183B4E;
+     border-radius: 25px;
      float: left;
      display: flex;
      align-items: center;
@@ -63,25 +64,31 @@
      height: 500px;
      width: full;
      padding: 30px;
-     color: lch(91.42% 1.06 199.91);
+     color: hwb(180 84% 6%);
  }
 
  .container {
-     display: flex;
-     gap: 20px;
-     color: #183B4E;
-     text-align: center;
+display: flex;
+gap: 20px;
  }
 
- a {
-     text-decoration: none;
-     color: #1B1A55;
+i {
+      border: 6px solid #C14600;
+     border-radius: 50%;
+     font: 20px;
+     opacity: 0.5;
+ }
+
+ i:hover {
+     font: 20px;
+     opacity: 1;
  }
 
  #footer {
      height: 400px;
-     width: full;
+     width: 100%;
      background-color: #183B4E;
+     border-radius: 25px;
      display: flex;
      gap: 350px;
      position: relative;
@@ -101,19 +108,6 @@
  span {
      color: black;
  }
-
- i {
-     border: 6px solid #C14600;
-     border-radius: 50%;
-     font: 20px;
-     opacity: 0.5;
- }
-
- i:hover {
-     font: 20px;
-     opacity: 1;
- }
-
 
  .c7 {
      height: 250px;
