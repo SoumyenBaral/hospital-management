@@ -1,7 +1,7 @@
  .navbar {
      height: 80px;
      width: 100%;
-     background-color: #183B4E;
+     background-color: hsl(90, 10%, 96%);
      border-radius: 25px;
      float: left;
      display: flex;
@@ -16,22 +16,22 @@
 
  #d11 {
      text-decoration: solid;
-     color: #DFD0B8;
+     color: #0e0d0d;
  }
 
  #d12 {
      text-decoration: solid;
-     color: #DFD0B8;
+     color: hsl(40, 23%, 3%);
  }
 
  #d13 {
      text-decoration: solid;
-     color: #DFD0B8;
+     color: hsl(0, 3%, 6%);
  }
 
  #d14 {
      text-decoration: solid;
-     color: #DFD0B8;
+     color: hsl(34, 30%, 5%);
  }
 
  #d11:hover {
@@ -72,27 +72,18 @@ display: flex;
 gap: 20px;
  }
 
-i {
-      border: 6px solid #C14600;
-     border-radius: 50%;
-     font: 20px;
-     opacity: 0.5;
- }
 
- i:hover {
-     font: 20px;
-     opacity: 1;
- }
 
  #footer {
      height: 400px;
      width: 100%;
-     background-color: #183B4E;
+     background-color: hsl(195, 8%, 91%);
      border-radius: 25px;
      display: flex;
      gap: 350px;
      position: relative;
      padding: 50px;
+     
  }
 
  #d10 {
@@ -112,7 +103,7 @@ i {
  .c7 {
      height: 250px;
      width: 100%;
-     gap: 10px;
+     gap: 30px;
      position: absolute;
      align-items: center;
      justify-items: center;
